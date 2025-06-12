@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.judul {
+  text-align: center; 
+  margin-top: 30px; 
+  font-family: Poppins, sans-serif;
+}
+:root {
+  box-sizing: border-box;
+}
+
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fff8f8, #bdd6e2);
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.summary {
+  background-color: #cbf0fc;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  border: 3px solid rgb(4, 40, 54);
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+}
+
+#inGame, #result {
+  color: #202020;
+  margin-top: 1rem;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.option {
+  width: 30%;
+  margin: 10px 15px;
+  padding: 25px;
+  text-align: center;
+  font-size: 40px;
+  background-color: rgb(177, 213, 228);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.option:hover{
+  cursor: pointer;
+  background-color: rgb(4, 40, 54);
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+  transform: scale(110%); /* nanti waktu dipencet ada transisi timbul gitu */
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #3d1706;
+  font-family: 'Poppins', sans-serif;
+}
